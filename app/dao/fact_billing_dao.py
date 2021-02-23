@@ -684,3 +684,7 @@ def fetch_usage_year_for_organisation(organisation_id, year):
         service_with_usage[str(email_usage.service_id)]['emails_sent'] = email_usage.emails_sent
 
     return service_with_usage
+
+
+def fetch_billing_details_for_all_services():
+    return []
